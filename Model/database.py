@@ -36,7 +36,8 @@ class database_call :
                         host=self.database_detail["host"],
                         user=self.database_detail["database_username"],
                         password=self.database_detail["database_password"],
-                        database=self.database_detail["database_name"]
+                        database=self.database_detail["database_name"],
+                        port=self.database_detail["port"]
                         )
             
             self.database_connect = True
