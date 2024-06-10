@@ -13,8 +13,6 @@ import Model.database as database
 #import controller
 import Controller.ui_controller as ui
 
-import page.menu as menu
-
 class addProjectPage(QMainWindow):
     def __init__(self,username,name,menu_page):
         super(addProjectPage, self).__init__()

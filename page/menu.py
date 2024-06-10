@@ -1,17 +1,11 @@
 from PyQt6 import  uic
-from PyQt6.QtWidgets import QApplication,QMainWindow,QWidget
+from PyQt6.QtWidgets import QMainWindow
 
 
 
 import sys
 from dotenv import load_dotenv
-import hashlib
-import os
 
-#import model
-import Model.database as database 
-#import controller
-import Controller.ui_controller as ui
 
 #import page
 import page.add_project as add_page

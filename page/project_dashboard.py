@@ -1,9 +1,6 @@
 from PyQt6 import  uic
-from PyQt6.QtWidgets import QApplication,QMainWindow,QWidget,QTableWidgetItem
+from PyQt6.QtWidgets import QMainWindow,QTableWidgetItem
 
-
-
-import random
 
 #import model
 import Model.database as database 
@@ -11,7 +8,6 @@ import Model.database as database
 import Controller.ui_controller as ui
 
 #import page
-import page.add_project as add_page
 import page.edit_project as edit
 
 

@@ -1,17 +1,9 @@
 from PyQt6 import  uic
-from PyQt6.QtWidgets import QApplication,QMainWindow,QFileDialog
-from PyQt6.QtCore import QDate
-from PyQt6.QtGui import QPixmap
-
-
-
+from PyQt6.QtWidgets import QMainWindow
 
 import dotenv
 import os
 
-
-#import model
-import Model.database as database 
 #import controller
 import Controller.ui_controller as ui
 
