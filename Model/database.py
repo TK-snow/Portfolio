@@ -36,8 +36,7 @@ class database_call :
                         host=self.database_detail["host"],
                         user=self.database_detail["database_username"],
                         password=self.database_detail["database_password"],
-                        database=self.database_detail["database_name"],
-                        port=self.database_detail["port"]
+                        database=self.database_detail["database_name"]
                         )
             
             self.database_connect = True
@@ -48,7 +47,7 @@ class database_call :
             code = e.errno
             print(code)
             if(code == 2005):
-                ui.message.alert(self,message="can't access to database server!")
+                ui.message.alert(self,e.msg)
             elif(code == 1045):
                 ui.message.alert(self,message="Invalid Username or password")
             else:
